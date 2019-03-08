@@ -1,0 +1,1 @@
+{"I-CHECK": 0, "I-CUE": 1, "I-BODY": 2, "B-CHECK": 3, "E-SYMPTOM": 4, "S-CHECK": 6, "S-SYMPTOM": 5, "B-SYMPTOM": 8, "S-BODY": 7, "I-DISEASE": 10, "B-DISEASE": 11, "O": 9, "E-DISEASE": 15, "E-BODY": 14, "B-CUE": 13, "E-CUE": 16, "B-BODY": 17, "I-SYMPTOM": 18, "E-CHECK": 12}
