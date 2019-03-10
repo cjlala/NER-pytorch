@@ -73,6 +73,5 @@ if __name__ == "__main__":
 
             y_true_copy, y_pred_copy = tags.detach().numpy(), predicions.detach().numpy()
             sent_correct_pred, sent_total_pred, sent_total_true = eval_chunk(y_true_copy, y_pred_copy, tag2idx, count_dic)
-            # record.update(sent_correct_pred, sent_total_pred, sent_total_true, loss.item()/TOTAL_WORD_COUNT)
-        # record.show(epoch+1)
+            
         record.show_category(epoch+1, count_dic)

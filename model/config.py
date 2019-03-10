@@ -9,6 +9,8 @@ VOCAB_SIZE = 1753
 TAGET_SIZE = 19
 lr = 0.01
 TOTAL_WORD_COUNT = 261035
+START_TAG = "<START>"
+STOP_TAG = "<STOP>"
 
 with open('../tagged_data.txt', 'r') as f:
     data = f.read().decode('utf8').split('\n\r')
